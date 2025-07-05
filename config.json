@@ -1,0 +1,17 @@
+{
+  "model_settings": {
+    "confidence_threshold": 0.5,
+    "nms_threshold": 0.4,
+    "input_size": 640
+  },
+  "tracking_settings": {
+    "enabled": true,
+    "max_disappeared": 30,
+    "max_distance": 50
+  },
+  "detection_settings": {
+    "roi_enabled": true,
+    "save_annotated_frames": true,
+    "log_detections": true
+  }
+}

@@ -1,3 +1,34 @@
-models/*
-videos/*
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.log
 
+# Virtualenv
+**/venv/
+.venv/
+env/
+ENV/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Dados locais
+.env
+*.db
+*.sqlite3
+
+# Arquivos grandes (modelos e vídeos)
+models/
+videos/
+output/
+
+# Jupyter (caso use)
+.ipynb_checkpoints/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

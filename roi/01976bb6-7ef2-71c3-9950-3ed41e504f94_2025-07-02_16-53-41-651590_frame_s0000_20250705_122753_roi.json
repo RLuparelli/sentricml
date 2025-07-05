@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "created_at": "2025-07-05T12:36:32.665749",
+    "source_image": "D:\\Sentric\\MercadoLivre\\dataset3.0\\sentricml\\photos\\01976bb6-7ef2-71c3-9950-3ed41e504f94_2025-07-02_16-53-41-651590_frame_s0000_20250705_122753.jpg",
+    "image_dimensions": {
+      "width": 1200,
+      "height": 675
+    },
+    "roi_type": "detection_area",
+    "scale_factor": 0.9375
+  },
+  "roi": {
+    "points": [
+      [
+        1082,
+        204
+      ],
+      [
+        971,
+        466
+      ],
+      [
+        1226,
+        538
+      ],
+      [
+        1259,
+        238
+      ],
+      [
+        1083,
+        205
+      ]
+    ],
+    "points_count": 5,
+    "type": "detection_area"
+  },
+  "config": {
+    "for_package_detection": true,
+    "conveyor_belt_setup": true,
+    "yolo_compatible": true
+  }
+}
