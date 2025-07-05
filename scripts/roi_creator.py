@@ -492,9 +492,9 @@ def main():
     # Configurações
     IMAGE_PATH = input("Digite o caminho da imagem (ou Enter para usar padrão): ").strip()
     if not IMAGE_PATH:
-        IMAGE_PATH = r"D:\Sentric\Obra_Area\img\sample.webp"  # Altere para uma imagem sua
+        IMAGE_PATH = r"D:\Sentric\MercadoLivre\dataset3.0\sentricml\img\sample.webp"
     
-    ROI_SAVE_PATH = r"D:\Sentric\Obra_Area\multiple_rois"
+    ROI_SAVE_PATH = r"D:\Sentric\MercadoLivre\dataset3.0\sentricml\multiple_rois"
     
     # Verifica se a imagem existe
     if not os.path.exists(IMAGE_PATH):
