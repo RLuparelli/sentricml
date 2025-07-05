@@ -1,0 +1,9 @@
+# Ignorar diretórios grandes
+videos/
+models/
+
+# (Opcional) Ignorar arquivos temporários de sistema e Python
+*.pyc
+__pycache__/
+.env
+.venv/
